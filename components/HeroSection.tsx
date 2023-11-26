@@ -15,8 +15,8 @@ export default function HeroSection() {
                     
                 </div>
                 <div className = "md:w-1/2 md:mt-2">
-                    <h1 className = 'font-semibold text-4xl mt-6 md:text-6xl md:mt-0'>Hi, I'm Michael!</h1>
-                    <p className = 'text-lg mt-4 mb-6 md:text-xl'>I'm an aspiring software engineer. This is where I keep my things.</p>
+                    <h1 className = 'font-semibold text-4xl mt-6 md:text-6xl md:mt-0'>Hi, I&apos;m Michael!</h1>
+                    <p className = 'text-lg mt-4 mb-6 md:text-xl'>I&apos;m an aspiring software engineer. This is where I keep my things.</p>
                     <p className = 'text-lg mt-4 mb-6 md:text-xl'>Checkout my Github, LinkedIn, Resume, or keep scrolling!</p>
                     <div className = 'flex flex-row items-center justify-center space-x-2 mb-1 py-4'>
                         <a href='https://github.com/michaelbbchen' target = '_blank'>
