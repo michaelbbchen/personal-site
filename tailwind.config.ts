@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
+  darkMode: "class",
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -13,6 +14,15 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      animation: {
+        bounce: 'bounce 1s alternate cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite'
+      },
+      keyframe: {
+        bounce: {
+          from: { transform: 'translateY(10px)'},
+          to: { transform: 'translateY(0)'}
+        }
+      }
     },
   },
   plugins: [],
