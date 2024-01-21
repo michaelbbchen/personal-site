@@ -26,7 +26,7 @@ const NAV_ITEMS: Array<NavItem> = [
 ]
 
 export default function Navbar(){
-    const { systemTheme, theme, setTheme } = useTheme("dark")
+    const { systemTheme, theme, setTheme } = useTheme()
     const currentTheme = theme === "system" ? systemTheme : theme
     const [navbar, setNavbar] = useState(false)
     console.log(theme)
