@@ -26,7 +26,7 @@ const NAV_ITEMS: Array<NavItem> = [
 ]
 
 export default function Navbar(){
-    const { systemTheme, theme, setTheme } = useTheme()
+    const { systemTheme, theme, setTheme } = useTheme("dark")
     const currentTheme = theme === "system" ? systemTheme : theme
     const [navbar, setNavbar] = useState(false)
     console.log(theme)
@@ -66,7 +66,7 @@ export default function Navbar(){
                                   </Link>
                                 })
                             }
-                            {
+                            {/* {
                                 currentTheme === "dark" ? (
                                     <button onClick = {()=>setTheme("light")} className = "bg-slate-100 p-2 rounded-xl">
                                         <RiSunLine size = {25} color = "black" />
@@ -74,7 +74,7 @@ export default function Navbar(){
                                     <button onClick = {()=>setTheme("dark")} className = "bg-slate-100 p-2 rounded-xl">
                                         <RiMoonFill size = {25} />
                                     </button>)
-                            }
+                            } */}
                         </div>
                     </div>
                 </div>

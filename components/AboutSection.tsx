@@ -12,7 +12,12 @@ const skills = [
     {skill: 'Java'},
     {skill: 'Kotlin'},
     {skill: 'Next.js'},
+    {skill: 'React'},
+    {skill: 'Express'},
+    {skill: 'Node'},
+    {skill: 'Docker'},
     {skill: 'Tensorflow'},
+    
 ]
 
 export default function AboutSection() {
@@ -24,7 +29,7 @@ export default function AboutSection() {
                 <div className = "flex flex-col md:flex-row space-y-10 items-stretch justify-center align-top md:p-4 md:space-y-0 md:space-x-10">
                     <div className = "md:w-1/2">
                         <h1 className = "text-center text-2xl font-bold mb-6 md:text-left">Get to know me!</h1>
-                        <p>Hi, I&apos;m Michael and I am a student studying Electrical Engineering and Computer Science at UC Berkeley.</p>
+                        <p>Hi, I&apos;m Michael and I am a student studying Electrical Engineering and Computer Science at UC Berkeley. When I'm not coding I spend my time bouldering and playing volleyball</p>
                     </div>
                     <div className = "md:w-1/2">
                         <h1 className = "text-center text-2xl font-bold mb-6 md:text-left">My skills</h1>
