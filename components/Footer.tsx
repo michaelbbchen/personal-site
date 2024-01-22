@@ -13,7 +13,7 @@ export default function Footer() {
                 <a href='https://www.linkedin.com/in/michael-chen-2125b0161/' target = '_blank'>
                     <AiOutlineLinkedin className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100" size={30}/>
                 </a>
-                <a href='/Resume.pdf' target = '_blank'>
+                <a href='/resume.pdf' target = '_blank'>
                     <MdContactPage className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100" size={30}/>
                 </a>
             </div>
